@@ -22,8 +22,3 @@ def inputEvents(attributes):
             event.append(val)
         dataset.append(event)
     return dataset
-
-attributes = inputAttributes()
-print(attributes)
-dataset = inputEvents(attributes)
-print(dataset)
