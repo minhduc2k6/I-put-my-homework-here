@@ -16,3 +16,4 @@ def entropyLabel(dataset, attributes):
     for event in dataset:  #for i in range(m) lặp lấy tổng giá trị bằng events
         labels.append(event[n-1])  #Lấy giá trị cuối của mỗi event
     return labels
+def entropy(dataset, attributes):
